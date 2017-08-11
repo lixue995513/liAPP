@@ -1,0 +1,10 @@
+body,html{
+    background-color: white;
+}
+#login{
+    width:100%;
+    height:auto;
+    min-width:320px ;
+    max-width: 640px;
+    /*background:url(../../img/banner.png) no-repeat;*/
+}
