@@ -11,6 +11,10 @@
 .mui-bar-nav~.mui-content{
     padding-top: 22px;
 }
+.mui-bar-tab .mui-tab-item .mui-icon{
+    width: 20px;
+    height: 20px;
+}
 .new_new{
     /*margin-top:10px;*/
     /*margin-bottom:10px;*/
@@ -96,6 +100,34 @@
 .index .mui-content{
     background-color: #fff;
 }
+footer{
+    position: fixed;
+    width: 100%;
+    border-top: #ccc;
+    background-color: #fbf4f4;
+    line-height: 20px;
+    color: darkred;
+    bottom: 0px;
+    text-align: center;
+    height: 50px;
+    border-top:1px solid #ccc;
+}
+footer a{
+    float: left;
+    width: 25%;
+    padding-top: 5px;
+}
+footer a img{
+    width: 20px;
+    height: 20px;
+    z-index: 20;
+}
+footer a .foot_word{
+    font-size: 11px;
+    display: block;
+    overflow: hidden;
+}
+
 
 /*********fotter部分start*************/
 /*********fotter部分end*************/

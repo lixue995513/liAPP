@@ -1,12 +1,4 @@
 
-body,html{
-    background-color: #fff;
-}
-#mine{
-    max-width: 640px;
-    min-width: 320px;
-    width:100%;
-}
 #header{
    background-color: #59DEFF;
 }
@@ -106,4 +98,31 @@ body,html{
  }
 .mui-table-view-cell>a:not(.mui-btn){
     font-size: 14px;
+}
+footer{
+    position: fixed;
+    width: 100%;
+    border-top: #ccc;
+    background-color: #fbf4f4;
+    line-height: 20px;
+    color: darkred;
+    bottom: 0px;
+    text-align: center;
+    height: 50px;
+    border-top:1px solid #ccc;
+}
+footer a{
+    float: left;
+    width: 25%;
+    padding-top: 5px;
+}
+footer a img{
+    width: 20px;
+    height: 20px;
+    z-index: 20;
+}
+footer a .foot_word{
+    font-size: 11px;
+    display: block;
+    overflow: hidden;
 }
